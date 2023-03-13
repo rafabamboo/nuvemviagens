@@ -1,0 +1,330 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.logo {
+    text-align: center;
+    padding: 5em 0 15em 0;
+}
+
+.logo svg {
+    opacity: 0.5;
+}
+
+main {
+    background-color: #0070AC;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.arrows {
+    text-align: center;
+    padding: 0 0 5em 0;
+}
+
+.about {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about img {
+    width: 95%;
+}
+
+.about li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.about h2 {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Titillium Web;
+    font-size: 48px;
+    text-transform: lowercase;
+    text-align: right;
+    padding: 32px 0;
+}
+
+.about p {
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    text-align: right;
+    margin: 0 0 0 16%;
+}
+
+.about .btn {
+    margin: 48px auto 48px auto;
+    width: 128px;
+    color: #0070AC !important;
+    background: #fff !important;
+    border: none;
+    border-radius: 50px !important;
+    padding: 8px 16px !important;
+    font-family: Open Sans;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.produtos {
+    background-color: #0070AC;
+    width: 1220px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos h3 {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Titillium Web;
+    font-size: 48px;
+    text-transform: lowercase;
+    padding: 32px 0;
+}
+
+.produtos p {
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.viajantes {
+    background-color: #0070AC;
+    width: 1220px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.viajantes li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.viajantes h4 {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Titillium Web;
+    font-size: 48px;
+    text-transform: lowercase;
+    padding: 32px 0;
+}
+
+.viajantes p {
+    color: white;
+    width: 512px;
+    font-family: Open Sans;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+ .clientes {
+    width: 100%;
+    text-align: center;
+}
+
+.parceiros {
+    background-color: #0070AC;
+    width: 1220px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.parceiros li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 128px 20px;
+    box-sizing: border-box;
+    
+}
+
+.parceiros h4 {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Titillium Web;
+    font-size: 48px;
+    text-transform: lowercase;
+    padding: 32px 0;
+}
+
+.parceiros p {
+    color: white;
+    width: 512px;
+    font-family: Open Sans;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    width: 128px;
+}
+
+.quebra-main {
+    background-color: #0070AC;
+}
+
+.quebra-footer {
+    background-color: #f6f6f6;
+}
+
+.quebra-main img, .quebra-footer img {
+    width: 100%;
+}
+
+footer {
+    height: 256px;
+    padding-bottom: 32px;
+    background-color: #f6f6f6;
+    background: url(img/quebra-footer.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer ul {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+footer li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 0;
+}
+
+footer h5 {
+    color: #444;
+    font-family: Titillium Web;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: lowercase;
+    margin-left: 32px;
+    padding-top: 8px;
+}
+
+.logo-footer {
+    padding-top: 16px;
+}
+
+footer p {
+    border-top: 2px solid #0070AC;
+    padding-top: 16px;
+    color: #444;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    margin-left: 32px;
+}
+
+@media (max-width: 767px) {
+    .banner img {
+        width: 100%;
+    }
+
+    .arrows {
+        padding: 0 0;
+    }
+
+    .about {
+        width: 60%;
+    }
+
+    .about li {
+        display: block;
+        width: 100%;
+    }
+
+    .about img {
+        width: 90%;
+    }
+
+    .about p {
+        width: 90%;
+    }
+
+    .produtos {
+        width: 90%;
+    }
+
+    .produtos li {
+        display: block;
+        width: auto;
+    }
+
+    .viajantes {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .viajantes h4 {
+        text-align: center;
+    }
+
+    .viajantes p {
+        width: auto;
+        text-align: center;
+    }
+
+    .parceiros {
+        width: 90%;
+    }
+
+    .parceiros li {
+        display: inline-block;
+        margin: 1em 0;
+        padding: 5em 0;
+    }
+
+    .parceiros h4 {
+        text-align: center;
+    }
+
+    .parceiros p {
+        width: auto;
+        text-align: center;
+    }
+
+    .parceiros img {
+        width: 80%;
+    }
+
+    .footer {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    footer ul {
+        width: 100%;        
+    }
+}
